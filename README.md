@@ -31,11 +31,11 @@ Startup file (CRT) for developing MSX 8 or 16K ROM applications using Small Devi
 This CRT includes the header of the MSX ROM, initializes the stack and executes 
 the main function. The ROM is allocated in the third bank (8000h).
   
-Include winOS scripts (.BAT) for compile a 8K or 16K projects.
+It includes winOS scripts (.BAT) for compiling a 8K or 16K projects.
 These scripts compile and generate the binary with the appropriate size.
   
                           
-Example for compile and create a 16K ROM binary:  
+Compilation and 16K ROM binary creation example:  
 `sdcc -mz80 --code-loc 0x8020 --data-loc 0xC000 --use-stdout --no-std-crt0 crt_MSX816kROM4000.rel CFILENAME.c`                           
 `hex2bin -e ROM -l 4000 CFILENAME.ihx`   <--- generate a binary file and fill to 16384 Bytes size (4000h) 
 
@@ -74,12 +74,12 @@ Thanks for Info & help, to:
 
 
 
-## 4. How to use a winOS scripts
+## 4. How to use the winOS scripts
 
-In this project, i'm included a two winOS script files: for 8K or 16K ROMs.
+In this project, I have included two winOS script files: for 8K or 16K ROMs.
 The script is the same but with the size parameter `ROMSIZE` modified for each case.
 
-These scripts can be adapted to Linux. I am waiting for an expert who wants to collaborate with this task. ;) 
+There are also two scripts for linux which work in the same way as the winOS.
 
 To adapt the script to your project, you must follow the following steps:
 
