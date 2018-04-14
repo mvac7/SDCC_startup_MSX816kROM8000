@@ -79,7 +79,7 @@ Thanks for Info & help, to:
 In this project, I have included two winOS script files: for 8K or 16K ROMs.
 The script is the same but with the size parameter `ROMSIZE` modified for each case.
 
-These scripts can be adapted to Linux. I am waiting for an expert who wants to collaborate with this task. ;) 
+There are also two scripts for linux which work in the same way as the winOS.
 
 To adapt the script to your project, you must follow the following steps:
 
