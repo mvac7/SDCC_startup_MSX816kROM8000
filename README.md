@@ -2,6 +2,8 @@
 
 Version: 1.1
 
+Date: 12/04/2018
+
 Author: mvac7/303bcn
 
 Architecture: MSX
@@ -36,7 +38,7 @@ These scripts compile and generate the binary with the appropriate size.
   
                           
 Compilation and 16K ROM binary creation example:  
-`sdcc -mz80 --code-loc 0x8020 --data-loc 0xC000 --use-stdout --no-std-crt0 crt_MSX816kROM4000.rel CFILENAME.c`                           
+`sdcc -mz80 --code-loc 0x8020 --data-loc 0xC000 --use-stdout --no-std-crt0 crt0_MSX816kROM4000.rel CFILENAME.c`                           
 `hex2bin -e ROM -l 4000 CFILENAME.ihx`   <--- generate a binary file and fill to 16384 Bytes size (4000h) 
 
 

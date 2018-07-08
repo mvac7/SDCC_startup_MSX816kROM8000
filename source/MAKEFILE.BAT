@@ -1,2 +1,2 @@
-sdasz80 -o crt_MSX816kROM8000.s
+sdasz80 -o crt0_MSX816kROM8000.s
 pause

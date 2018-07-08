@@ -7,7 +7,7 @@ SET CFILENAME=sourcename
 SET ROMFILENAME=ROMNAME
 SET CODELOC=0x8020
 SET ROMSIZE=4000
-SET CRT=libs\crt_MSX816kROM8000.rel
+SET CRT=libs\crt0_MSX816kROM8000.rel
 REM add paths from our objects files into LIBn variables
 REM don't erase empty variables
 SET LIB0=
